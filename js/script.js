@@ -9,7 +9,7 @@ import   slider from "./modules/slider";
 import { openModal } from "./modules/modal";
 
 window.addEventListener("DOMContentLoaded", () => {
-    const modalTimerId = setTimeout(() =>openModal(".modal",modalTimerId) , 3000); // тамер для окна с интервалом открытия в 3с
+    const modalTimerId = setTimeout(() =>openModal(".modal",modalTimerId) , 3000); // таймер для окна с интервалом открытия в 3с
 
 
         tabs(".tabheader__item",".tabcontent",".tabheader__items","tabheader__item_active");
